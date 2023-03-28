@@ -1,0 +1,27 @@
+.app {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-div {
+    display: flex;
+    padding: 10px;
+}
+#main-btn {
+    width: 75px;
+    height: 30px;
+    color: white;
+    background-color: navy;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#main-btn:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
